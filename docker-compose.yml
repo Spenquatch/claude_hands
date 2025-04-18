@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile_claude_code_sse
     volumes:
-      - /home/spenser/__Project_Code/spensermcconnell.com:/workspace
+      - /path/to/workspace:/workspace
     ports:
       - "9999:9999"
     restart: unless-stopped
